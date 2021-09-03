@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: d5e62aef6a415b54d8c3de91742c4587
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: chef.
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 310
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chef.
+      rect:
+        serializedVersion: 2
+        x: 19.07612
+        y: 6.020422
+        width: 241.8478
+        height: 276.9035
+      alignment: 9
+      pivot: {x: 0.5620224, y: 0.5380199}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.00001, y: 5.527847}
+        - {x: -38, y: -14.47215}
+        - {x: -32.00001, y: 23.52785}
+        - {x: -27.00001, y: 45.52785}
+      physicsShape:
+      - - {x: 115, y: -97.47215}
+        - {x: 121, y: -93.47215}
+        - {x: 121, y: -86.47215}
+        - {x: 98.99999, y: -57.47215}
+        - {x: 75.99999, y: -36.47215}
+        - {x: 51.99999, y: -25.47215}
+        - {x: 42.99999, y: -12.47215}
+        - {x: 63.99999, y: -3.472153}
+        - {x: 72.99999, y: 3.527847}
+        - {x: 79.99999, y: 19.52785}
+        - {x: 80.99999, y: 32.52785}
+        - {x: 71.99999, y: 39.52785}
+        - {x: 59.99999, y: 37.52785}
+        - {x: 54.99999, y: 54.52785}
+        - {x: 53.99999, y: 74.52785}
+        - {x: 61.99999, y: 75.52785}
+        - {x: 70.99999, y: 76.52785}
+        - {x: 76.99999, y: 77.52784}
+        - {x: 88.99999, y: 86.52785}
+        - {x: 92.99999, y: 103.5278}
+        - {x: 91.99999, y: 109.5278}
+        - {x: 82.99999, y: 120.5278}
+        - {x: 75.99999, y: 123.5278}
+        - {x: 57.99999, y: 123.5278}
+        - {x: 47.99999, y: 116.5278}
+        - {x: 45.99999, y: 127.5278}
+        - {x: 39.99999, y: 137.5278}
+        - {x: 34.99999, y: 138.5278}
+        - {x: 14.99999, y: 138.5278}
+        - {x: 1.999992, y: 130.5278}
+        - {x: -1.000008, y: 119.5278}
+        - {x: -7.000008, y: 125.5278}
+        - {x: -19.00001, y: 128.5278}
+        - {x: -35.00001, y: 119.5278}
+        - {x: -39, y: 108.5278}
+        - {x: -40.00001, y: 95.52785}
+        - {x: -35.00001, y: 86.52785}
+        - {x: -31, y: 83.52784}
+        - {x: -23.00001, y: 79.52785}
+        - {x: -12.00001, y: 80.52785}
+        - {x: -11.00001, y: 54.52785}
+        - {x: -14.00001, y: 46.52785}
+        - {x: -13.00001, y: 41.52785}
+        - {x: -28, y: 25.52785}
+        - {x: -29.00001, y: 19.52785}
+        - {x: -29.00001, y: -8.472153}
+        - {x: -26.00001, y: -13.47215}
+        - {x: -8.000006, y: -23.47215}
+        - {x: 9.999992, y: -26.47215}
+        - {x: -18.00001, y: -36.47215}
+        - {x: -37.00001, y: -50.47215}
+        - {x: -62.00001, y: -36.47215}
+        - {x: -58, y: -33.47215}
+        - {x: -53.00001, y: -22.47215}
+        - {x: -56.00001, y: -3.472153}
+        - {x: -64.00001, y: 2.527847}
+        - {x: -51.00001, y: 26.52785}
+        - {x: -29.00001, y: 55.52785}
+        - {x: -28, y: 66.52785}
+        - {x: -40.00001, y: 82.52785}
+        - {x: -56.00001, y: 81.52785}
+        - {x: -65, y: 74.52785}
+        - {x: -68.00001, y: 67.52785}
+        - {x: -66.00001, y: 34.52785}
+        - {x: -71, y: 26.52785}
+        - {x: -84, y: 3.527847}
+        - {x: -90, y: 7.527847}
+        - {x: -99.00001, y: 8.527847}
+        - {x: -110, y: -0.4721527}
+        - {x: -117, y: -17.47215}
+        - {x: -120, y: -32.47215}
+        - {x: -120, y: -52.47215}
+        - {x: -114, y: -58.47215}
+        - {x: -99.00001, y: -60.47215}
+        - {x: -61.00001, y: -70.47215}
+        - {x: -38, y: -78.47215}
+        - {x: -31, y: -79.47215}
+        - {x: -15.00001, y: -76.47215}
+        - {x: -17.00001, y: -86.47215}
+        - {x: -17.00001, y: -110.4721}
+        - {x: -14.00001, y: -121.4722}
+        - {x: -4.000008, y: -130.4722}
+        - {x: 6.999992, y: -136.4721}
+        - {x: 23.99999, y: -138.4722}
+        - {x: 43.99999, y: -138.4722}
+        - {x: 53.99999, y: -136.4721}
+        - {x: 70.99999, y: -136.4721}
+        - {x: 92.99999, y: -123.4721}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1eb4fb452c409ea97354f296c9304b
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

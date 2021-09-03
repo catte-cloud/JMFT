@@ -1,0 +1,254 @@
+fileFormatVersion: 2
+guid: 55f072999583f9744821abc7607fa724
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Punchy is fucking dead_0
+  - first:
+      213: 21300002
+    second: Punchy is fucking dead_1
+  - first:
+      213: 21300004
+    second: Punchy is fucking dead_2
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 333
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Punchy is fucking dead_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 181
+        height: 178
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -90.5, y: -89}
+        - {x: -90.5, y: 89}
+        - {x: 90.5, y: 89}
+        - {x: 90.5, y: -89}
+      physicsShape:
+      - - {x: 90.5, y: -48}
+        - {x: 90.5, y: -3}
+        - {x: 88.5, y: 5}
+        - {x: 82.5, y: 18}
+        - {x: 70.5, y: 33}
+        - {x: 60.5, y: 41}
+        - {x: 39.5, y: 51}
+        - {x: 22.5, y: 52}
+        - {x: 13.5, y: 52}
+        - {x: 9.5, y: 59}
+        - {x: 7.5, y: 70}
+        - {x: -5.5, y: 79}
+        - {x: -17.5, y: 76}
+        - {x: -23.5, y: 85.99999}
+        - {x: -30.5, y: 89}
+        - {x: -41.5, y: 89}
+        - {x: -80.5, y: 71}
+        - {x: -90.5, y: 65}
+        - {x: -90.5, y: 45}
+        - {x: -88.5, y: 41}
+        - {x: -86.5, y: 20}
+        - {x: -82.5, y: 0}
+        - {x: -79.49999, y: -7}
+        - {x: -65.5, y: -6}
+        - {x: -56.5, y: -7}
+        - {x: -53.5, y: -17}
+        - {x: -51.5, y: -34}
+        - {x: -55.5, y: -39}
+        - {x: -61.5, y: -35}
+        - {x: -66.5, y: -34}
+        - {x: -68.5, y: -36}
+        - {x: -68.5, y: -39}
+        - {x: -58.5, y: -54}
+        - {x: -70.5, y: -49}
+        - {x: -78.5, y: -49}
+        - {x: -83.5, y: -56}
+        - {x: -85.49999, y: -62}
+        - {x: -76.5, y: -66.99999}
+        - {x: -42.5, y: -82}
+        - {x: -26.5, y: -89}
+        - {x: 47.5, y: -89}
+        - {x: 56.5, y: -85.99999}
+        - {x: 62.5, y: -81}
+        - {x: 82.5, y: -63}
+      - - {x: 88.5, y: -68}
+        - {x: 81.5, y: -78}
+        - {x: 78.5, y: -89}
+        - {x: 90.5, y: -89}
+        - {x: 90.5, y: -68}
+      - - {x: -90.5, y: -89}
+        - {x: -87.5, y: -88}
+        - {x: -85.49999, y: -81}
+        - {x: -87.5, y: -79}
+        - {x: -90.5, y: -79}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f2c799f7ef46c293b08ea628530abb
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punchy is fucking dead_1
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 0
+        width: 56
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: -22}
+        - {x: -28, y: 22}
+        - {x: 28, y: 22}
+        - {x: 28, y: -22}
+      physicsShape:
+      - - {x: 28, y: 17}
+        - {x: 28, y: 22}
+        - {x: 18, y: 22}
+        - {x: -20, y: 12}
+        - {x: -28, y: 3}
+        - {x: -28, y: -22}
+        - {x: 28, y: -22}
+        - {x: 28, y: -8}
+        - {x: 24, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed83cd4f72e4559af211607e1309260
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punchy is fucking dead_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 97
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.5, y: -30}
+        - {x: -48.5, y: 30}
+        - {x: 48.5, y: 30}
+        - {x: 48.5, y: -30}
+      physicsShape:
+      - - {x: 48.5, y: -19}
+        - {x: 16.5, y: -6}
+        - {x: 20.5, y: 5}
+        - {x: 20.5, y: 13}
+        - {x: 14.5, y: 15}
+        - {x: 9.5, y: 11}
+        - {x: -4.5, y: 24}
+        - {x: -16.5, y: 29}
+        - {x: -33.5, y: 29}
+        - {x: -38.5, y: 28}
+        - {x: -48.5, y: 14}
+        - {x: -48.5, y: -11}
+        - {x: -46.5, y: -14}
+        - {x: -30.5, y: -30}
+        - {x: 48.5, y: -30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b86c11f7da4732838092088408a97e
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b35d53d6dad9be40b78e975f436047f, type: 3}
+  m_Name: Main Camera Profile 2
+  m_EditorClassIdentifier:
+  settings:
+  - {fileID: 11400000, guid: 5c811475013a50d4d9a2c4c6d1705ee5, type: 2}
+  - {fileID: 11400000, guid: e44d1dc513e723f48b7eb07eca23c79b, type: 2}
+  - {fileID: 11400000, guid: 065df70f9e4502443a81fbe4581859c2, type: 2}
+  - {fileID: 11400000, guid: e795bd71354c05045b7fe412f3818d38, type: 2}
+  - {fileID: 11400000, guid: 4bab6ca9980721c409a5cb2ada5e5a03, type: 2}

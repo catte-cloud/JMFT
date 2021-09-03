@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Scene/Normal/Scene/Scenes/Factory~New.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

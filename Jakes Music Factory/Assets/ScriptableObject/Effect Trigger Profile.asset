@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b35d53d6dad9be40b78e975f436047f, type: 3}
+  m_Name: Effect Trigger Profile
+  m_EditorClassIdentifier:
+  settings:
+  - {fileID: 11400000, guid: 7b78396eea3bf4847a6e9be90956ba88, type: 2}
+  - {fileID: 11400000, guid: e5c08c271e1d4c34389147fcd7eff96f, type: 2}
+  - {fileID: 11400000, guid: 847ff2a2bdbdbc84eb7e51085fa38516, type: 2}
+  - {fileID: 11400000, guid: 90e4953701c2df74898045924096b1e8, type: 2}
+  - {fileID: 11400000, guid: 6f70f6ca539e14949ae44611690ac319, type: 2}
+  - {fileID: 11400000, guid: c773a9d712342f44895c109957cd0f7a, type: 2}
+  - {fileID: 11400000, guid: c679a55da7c424946a19daee46934af8, type: 2}
