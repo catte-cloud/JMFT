@@ -149,38 +149,26 @@ public class GameControllerScript : MonoBehaviour
     // Token: 0x06000104 RID: 260 RVA: 0x00005AE0 File Offset: 0x00003CE0
     private void UpdateNotebookCount()
     {
-        if (this.mode == "story")
+        switch (this.mode)
         {
+            case 'double':
+                this.notebookCount.text = this.notebooks.ToString() + "/7 Instruments";
+                this.baldiTutor2.SetActive(true);
+                break;
+            case 'pie':
+                this.notebookCount.text = this.notebooks.ToString() + "/10 Instruments";
+                this.baldiTutor.SetActive(false);
+                this.RandomEventScript.enabled = false;
+                break;
+            case 'endless':
+                this.notebookCount.text = this.notebooks.ToString() + " Instruments";
+                break;
+            default:
             this.notebookCount.text = this.notebooks.ToString() + "/7 Instruments";
+                break;
         }
-        if (this.mode == "double")
-        {
-            this.notebookCount.text = this.notebooks.ToString() + "/7 Instruments";
-            this.baldiTutor2.SetActive(true);
-        }
-        if (this.mode == "pie")
-        {
-            this.notebookCount.text = this.notebooks.ToString() + "/10 Instruments";
-            this.baldiTutor.SetActive(false);
-            this.RandomEventScript.enabled = false;
-        }
-        else
-        {
-            this.notebookCount.text = this.notebooks.ToString() + "/7 Instruments";
-        }
-        if (this.notebooks == 7 & this.mode == "story")
-        {
-            this.ActivateFinaleMode();
-        }
-        if (this.notebooks == 7 & this.mode == "double")
-        {
-            this.ActivateFinaleMode();
-        }
-        if (this.notebooks == 7 & this.mode == "endless")
-        {
-            this.ActivateFinaleMode();
-        }
-        if (this.notebooks == 10 & this.mode == "pie")
+        
+        if (this.notebooks == 7 & this.mode == "story" || this.notebooks == 10 & this.mode == "pie")
         {
             this.ActivateFinaleMode();
         }
@@ -239,82 +227,49 @@ public class GameControllerScript : MonoBehaviour
         this.LockMouse();
     }
 
+    public void LoadCharacters()
+    {
+
+                this.spoopMode = true;
+                this.entrance_0.Lower();
+                this.entrance_1.Lower();
+                this.entrance_2.Lower();
+                this.entrance_3.Lower();
+                this.baldiTutor.SetActive(false);
+                this.baldi.SetActive(true);
+                this.principal.SetActive(true);
+                this.yeet.SetActive(true);
+                this.glitchy.SetActive(true);
+                this.crafters.SetActive(true);
+                this.playtime.SetActive(true);
+                this.gottaSweep.SetActive(false);
+                this.bully.SetActive(true);
+                this.firstPrize.SetActive(true);
+                this.audioDevice.PlayOneShot(this.aud_Hang);
+                this.learnMusic.Stop();
+                this.schoolMusic.Stop();
+                this.madglitchy.SetActive(false);
+                this.baldi2.SetActive(false);
+                this.baldiTutor2.SetActive(false);
+                this.nurse.SetActive(true);
+                this.unnameable.SetActive(true);
+    }
+
     // Token: 0x0600010A RID: 266 RVA: 0x00005D7C File Offset: 0x00003F7C
     public void ActivateSpoopMode()
     {
-        if (this.mode == "double")
+        switch (this.mode)
         {
-            this.spoopMode = true;
-            this.entrance_0.Lower();
-            this.entrance_1.Lower();
-            this.entrance_2.Lower();
-            this.entrance_3.Lower();
-            this.baldiTutor.SetActive(false);
-            this.baldi.SetActive(true);
-            this.principal.SetActive(true);
-            this.yeet.SetActive(true);
-            this.glitchy.SetActive(true);
-            this.crafters.SetActive(true);
-            this.playtime.SetActive(true);
-            this.gottaSweep.SetActive(false);
-            this.bully.SetActive(true);
-            this.firstPrize.SetActive(true);
-            this.audioDevice.PlayOneShot(this.aud_Hang);
-            this.learnMusic.Stop();
-            this.schoolMusic.Stop();
-            this.madglitchy.SetActive(false);
+            case "story":
+                LoadDefault();
+                break;
+            case "double":
+            LoadDefault();
             this.baldi2.SetActive(true);
             this.baldiTutor2.SetActive(false);
-        }
-        if (this.mode == "story")
-        {
-            this.spoopMode = true;
-            this.entrance_0.Lower();
-            this.entrance_1.Lower();
-            this.entrance_2.Lower();
-            this.entrance_3.Lower();
-            this.baldiTutor.SetActive(false);
-            this.baldi.SetActive(true);
-            this.principal.SetActive(true);
-            this.yeet.SetActive(true);
-            this.glitchy.SetActive(true);
-            this.crafters.SetActive(true);
-            this.playtime.SetActive(true);
-            this.gottaSweep.SetActive(false);
-            this.bully.SetActive(true);
-            this.firstPrize.SetActive(true);
-            this.audioDevice.PlayOneShot(this.aud_Hang);
-            this.learnMusic.Stop();
-            this.schoolMusic.Stop();
-            this.madglitchy.SetActive(false);
-            this.baldi2.SetActive(false);
-            this.baldiTutor2.SetActive(false);
-            this.nurse.SetActive(true);
-            this.unnameable.SetActive(true);
-        }
-        if (this.mode == "pie")
-        {
-            this.spoopMode = true;
-            this.entrance_0.Lower();
-            this.entrance_1.Lower();
-            this.entrance_2.Lower();
-            this.entrance_3.Lower();
-            this.baldiTutor.SetActive(false);
-            this.baldi.SetActive(false);
-            this.principal.SetActive(false);
-            this.yeet.SetActive(false);
-            this.glitchy.SetActive(false);
-            this.crafters.SetActive(false);
-            this.playtime.SetActive(false);
-            this.gottaSweep.SetActive(false);
-            this.bully.SetActive(true);
-            this.firstPrize.SetActive(false);
-            this.audioDevice.PlayOneShot(this.aud_Hang);
-            this.learnMusic.Stop();
-            this.schoolMusic.Stop();
-            this.madglitchy.SetActive(false);
-            this.baldi2.SetActive(false);
-            this.baldiTutor2.SetActive(false);
+            break;
+            case "pie": //i dont feel like cleaning this yet sorry
+            LoadDefault();
             this.PranksterEvil.SetActive(true);
             this.PranksterEvil1.SetActive(true);
             this.PranksterEvil2.SetActive(true);
@@ -324,6 +279,18 @@ public class GameControllerScript : MonoBehaviour
             this.ExtraNotebook8.SetActive(true);
             this.EXN9.SetActive(true);
             this.EXN10.SetActive(true);
+                break;
+            
+        }
+        
+
+        if (this.mode == "story")
+        {
+            
+        }
+        if (this.mode == "pie")
+        {
+            
         }
     }
 
